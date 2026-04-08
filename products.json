@@ -4,154 +4,154 @@
     "price": 12,
     "category": "devices.html",
     "desc": "CAPACITY : 500 mL     COVERAGE : 2000-3000m³",
-    "images": ["images/pic1.jpeg"]
+    "images": ["pic1.jpeg"]
   },
   {
     "name": "TW-SI01(PVC)",
     "price": 12,
     "category": "devices.html",
     "desc": "CAPACITY : 200mL    COVERAGE : 300-500m³",
-    "images": ["images/pic2.jpeg"]
+    "images": ["pic2.jpeg"]
   },
   {
     "name": "TW-LI01(PVC)",
     "price": 12,
     "category": "devices.html",
     "desc": "CAPACITY : 1000mL     COVERAGE : 5000-8000m³    ",
-    "images": ["images/pic3.jpeg"]
+    "images": ["pic3.jpeg"]
   },
   {
     "name": "TW-MI01(WITHOUT LCD)",
     "price": 12,
     "category": "devices.html",
     "desc": "CAPACITY : 500 mL    COVERAGE : 2000-3000m³",
-    "images": ["images/pic4.jpeg"]
+    "images": ["pic4.jpeg"]
   },
   {
     "name": "TW-SI01(WITHOUT LCD )",
     "price": 12,
     "category": "devices.html",
     "desc": "CAPACITY : 200mL    COVERAGE : 300-500m³",
-    "images": ["images/pic5.jpeg"]
+    "images": ["pic5.jpeg"]
   },
   {
     "name": "HC -5000HF",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 1200ml Plastic Bottle    Coverage : 5000m³/10000sq ft",
-    "images": ["images/pic6.jpeg"]
+    "images": ["pic6.jpeg"]
   },
   {
     "name": "HC -8000H",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 2000ml Plastic Bottle   Coverage : 8000m³/18000sq ft",
-    "images": ["images/pic7.jpeg"]
+    "images": ["pic7.jpeg"]
   },
   {
     "name": "HC -5000",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 800ml Plastic Bottle     Coverage : 5000m³/10000sq ft",
-    "images": ["images/pic8.jpeg"]
+    "images": ["pic8.jpeg"]
   },
   {
     "name": "HC -GX8000",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 500ml*2 Aluminum Bottle    Coverage : 8000m³/18000sq ft",
-    "images": ["images/pic9.jpeg"]
+    "images": ["pic9.jpeg"]
   },
   {
     "name": "HC -5001",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 500ml/1000ml Plastic Bottle    Coverage : 5000m³/10000sq ft",
-    "images": ["images/pic10.jpeg"]
+    "images": ["pic10.jpeg"]
   },
   {
     "name": "HC -A2000",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 800ml Plastic Bottle    Coverage : 2000m³/5000sq ft",
-    "images": ["images/pic11.jpeg"]
+    "images": ["pic11.jpeg"]
   },
   {
     "name": "HC -2000HF",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 800mL Plastic Bottle     Coverage : 2000m³ /5000sq ft",
-    "images": ["images/pic12.jpeg"]
+    "images": ["pic12.jpeg"]
   },
   {
     "name": "HC -S2000",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 500mL Plastic Bottle    Coverage : 2000m³ /5000sq ft",
-    "images": ["images/pic13.jpeg"]
+    "images": ["pic13.jpeg"]
   },
   {
     "name": "HC -1000",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 800mL Plastic Bottle      Coverage : 1500m³ /3000sq ft",
-    "images": ["images/pic14.jpeg"]
+    "images": ["pic14.jpeg"]
   },
   {
     "name": "HC -500G",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 200mL Plastic Bottle    Coverage : 500m³ /1700sq ft",
-    "images": ["images/pic15.jpeg"]
+    "images": ["pic15.jpeg"]
   },
   {
     "name": "X200",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 200mL Plastic Bottle   Coverage : 500m³ /1700sq ft",
-    "images": ["images/pic16.jpeg"]
+    "images": ["pic16.jpeg"]
   },
   {
     "name": "X100Pro",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 150mL Plastic Bottle    Coverage : 200m³ /700sq ft",
-    "images": ["images/pic17.jpeg"]
+    "images": ["pic17.jpeg"]
   },
   {
     "name": "X60",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 150mL Plastic Bottle   Coverage : 200m³ /700sq ft",
-    "images": ["images/pic18.jpeg"]
+    "images": ["pic18.jpeg"]
   },
   {
     "name": "Decoplus 100MAH",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 100mL Aluminium Bottle     Coverage : 200m³ /700sq ft",
-    "images": ["images/pic19.jpeg"]
+    "images": ["pic19.jpeg"]
   },
   {
     "name": "MiNiPlus",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 100mL Aluminium Bottle     Coverage : 400m³ /1400sq ft",
-    "images": ["images/pic20.jpeg"]
+    "images": ["pic20.jpeg"]
   },
   {
     "name": "MiNiPro 1000M A H WIRELESSPORTABLE DIFFUSER 28",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 100mL Aluminium Bottle    Coverage : 300m³ /1000sq ft",
-    "images": ["images/pic21.jpeg"]
+    "images": ["pic21.jpeg"]
   },
   {
     "name": "MiNi",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 100mL Aluminium Bottle    Coverage : 300m³ /1000sq ft",
-    "images": ["images/pic22.jpeg"]
+    "images": ["pic22.jpeg"]
   },
   {
     "name": "A300",
@@ -165,21 +165,21 @@
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 200mL Plastic Bottle    Coverage : 500m³ /1700sq ft",
-    "images": ["images/pic24.jpeg"]
+    "images": ["pic24.jpeg"]
   },
   {
     "name": "MiNi1",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 120mL Plastic Bottle     Coverage : 200m³ /700sq ft",
-    "images": ["images/pic25.jpeg"]
+    "images": ["pic25.jpeg"]
   },
   {
     "name": "A60",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 100mL Plastic Bottle      Coverage : 300m³ /1000sq ft",
-    "images": ["images/pic26.jpeg"]
+    "images": ["pic26.jpeg"]
   },
   {
    
@@ -187,21 +187,21 @@
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 10/20ml Plastic Bottle     Coverage : 10-50m³ (≈40-200ft²)",
-    "images": ["images/pic28.jpeg"]
+    "images": ["pic28.jpeg"]
   },
   {
     "name": "GAM-2001HF",
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 500ml   Coverage : 2000-3000m³ (≈7200-10800ft²)",
-    "images": ["images/pic29.jpeg"]
+    "images": ["pic29.jpeg"]
   },
    {
     "name": "M2B",
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic30.jpeg"]
+    "images": ["pic30.jpeg"]
   },
   {
    
@@ -209,21 +209,21 @@
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic31.jpeg"]
+    "images": ["pic31.jpeg"]
   },
   {
     "name": "M80",
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic32.jpeg"]
+    "images": ["pic32.jpeg"]
   }, 
    {
     "name": "M81",
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic33.jpeg"]
+    "images": ["pic33.jpeg"]
   },
   {
    
@@ -231,41 +231,41 @@
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic34.jpeg"]
+    "images": ["pic34.jpeg"]
   },
   {
     "name": "JK-577",
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic35.jpeg"]
+    "images": ["pic35.jpeg"]
   }, 
   {
     "name": "JK-579",
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic36.jpeg"]
+    "images": ["pic36.jpeg"]
   },
   {
     "name": "JK-726",
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic37.jpeg"]
+    "images": ["pic37.jpeg"]
   },  
   {
     "name": "JK-575",
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic38.jpeg"]
+    "images": ["pic38.jpeg"]
   }, 
   {
     "name": "CD06",
     "price": 12,
     "category": "devices.html",
     "desc": "",
-    "images": ["images/pic39.jpeg"]
+    "images": ["pic39.jpeg"]
   } 
 ]
