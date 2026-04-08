@@ -3,63 +3,63 @@
     "name": "TW-MI01",
     "price": ,
     "category": "devices.html",
-    "desc": "CAPACITY : 500 mL     COVERAGE : 2000-3000m³","Color : White / Black"
+    "desc": "CAPACITY : 500 mL     COVERAGE : 2000-3000m³",
     "images": ["pic1.jpeg"]
   },
   {
     "name": "TW-SI01(PVC)",
     "price": 12,
     "category": "devices.html",
-    "desc": "CAPACITY : 200mL    COVERAGE : 300-500m³","Color : White / Black"
+    "desc": "CAPACITY : 200mL    COVERAGE : 300-500m³",
     "images": ["pic2.jpeg"]
   },
   {
     "name": "TW-LI01(PVC)",
     "price": 12,
     "category": "devices.html",
-    "desc": "CAPACITY : 1000mL     COVERAGE : 5000-8000m³    ","Color : White / Black"
+    "desc": "CAPACITY : 1000mL     COVERAGE : 5000-8000m³    ",
     "images": ["pic3.jpeg"]
   },
   {
     "name": "TW-MI01(WITHOUT LCD)",
     "price": 12,
     "category": "devices.html",
-    "desc": "CAPACITY : 500 mL    COVERAGE : 2000-3000m³","Color : White / Black"
+    "desc": "CAPACITY : 500 mL    COVERAGE : 2000-3000m³",
     "images": ["pic4.jpeg"]
   },
   {
     "name": "TW-SI01(WITHOUT LCD )",
     "price": 12,
     "category": "devices.html",
-    "desc": "CAPACITY : 200mL    COVERAGE : 300-500m³","Color : White / Black"
+    "desc": "CAPACITY : 200mL    COVERAGE : 300-500m³",
     "images": ["pic5.jpeg"]
   },
   {
     "name": "HC -5000HF",
     "price": 12,
     "category": "devices.html",
-    "desc": "Capacity : 1200ml Plastic Bottle    Coverage : 5000m³/10000sq ft","Color : White / Black"
+    "desc": "Capacity : 1200ml Plastic Bottle    Coverage : 5000m³/10000sq ft",
     "images": ["pic6.jpeg"]
   },
   {
     "name": "HC -8000H",
     "price": 12,
     "category": "devices.html",
-    "desc": "Capacity : 2000ml Plastic Bottle   Coverage : 8000m³/18000sq ft","Color : White / Black"
+    "desc": "Capacity : 2000ml Plastic Bottle   Coverage : 8000m³/18000sq ft",
     "images": ["pic7.jpeg"]
   },
   {
     "name": "HC -5000",
     "price": 12,
     "category": "devices.html",
-    "desc": "Capacity : 800ml Plastic Bottle     Coverage : 5000m³/10000sq ft","Color : Black"
+    "desc": "Capacity : 800ml Plastic Bottle     Coverage : 5000m³/10000sq ft",
     "images": ["pic8.jpeg"]
   },
   {
     "name": "HC -GX8000",
     "price": 12,
     "category": "devices.html",
-    "desc": "Capacity : 500ml*2 Aluminum Bottle    Coverage : 8000m³/18000sq ft","Color : Black"
+    "desc": "Capacity : 500ml*2 Aluminum Bottle    Coverage : 8000m³/18000sq ft",
     "images": ["pic9.jpeg"]
   },
   {
