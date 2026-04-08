@@ -1,7 +1,7 @@
 [
   {
     "name": "TW-MI01",
-    "price": 12,
+    "price": ,
     "category": "devices.html",
     "desc": "CAPACITY : 500 mL     COVERAGE : 2000-3000m³",
     "images": ["pic1.jpeg"]
@@ -158,7 +158,7 @@
     "price": 12,
     "category": "devices.html",
     "desc": "Capacity : 200mL Plastic Bottle      Coverage : 500m³ /1700sq ft",
-    "images": ["images/pic23.jpeg"]
+    "images": ["pic23.jpeg"]
   },
   {
     "name": "HC-300HF",
