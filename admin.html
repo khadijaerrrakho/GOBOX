@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GOBOX Admin</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.admin-container{
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+}
+input, textarea, select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:none;
+}
+.admin-card{
+    background:#111;
+    padding:15px;
+    margin-top:10px;
+    border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="admin-container">
+
+<h1>🔒 Admin Panel</h1>
+
+<div id="login">
+<input type="password" id="password" placeholder="Enter admin password">
+<button onclick="login()">Login</button>
+</div>
+
+<div id="admin" style="display:none;">
+
+<h2>Add Product</h2>
+
+<input type="text" id="name" placeholder="Product name">
+<input type="number" id="price" placeholder="Price">
+
+<h3>Black Images (Devices only)</h3>
+<input type="file" id="imagesBlack" multiple>
+
+<h3>White Images (Devices only)</h3>
+<input type="file" id="imagesWhite" multiple>
+
+<h3>Product Images</h3>
+<div id="imageInputs">
+<input type="file" class="imageInput">
+</div>
+
+<button onclick="addImageInput()">+ Add Image</button>
+
+<textarea id="desc" placeholder="Description"></textarea>
+
+<select id="category">
+<option value="devices.html">Devices</option>
+<option value="oils.html">Oils</option>
+<option value="candles.html">Candles</option>
+</select>
+
+<h3>Device Type</h3>
+<select id="deviceMode">
+<option value="normal">Normal</option>
+<option value="colors">Black & White</option>
+<option value="single">Single Color</option>
+</select>
+
+<button onclick="addProduct()">Add Product</button>
+
+<h2>All Products</h2>
+<div id="list"></div>
+
+</div>
+</div>
+
+<script>
+
+function login(){
+let pass=document.getElementById("password").value
+if(pass==="1234"){
+document.getElementById("login").style.display="none"
+document.getElementById("admin").style.display="block"
+displayProducts()
+}else{
+alert("Wrong password")
+}
+}
+
+function addImageInput(){
+let container=document.getElementById("imageInputs")
+let input=document.createElement("input")
+input.type="file"
+input.className="imageInput"
+container.appendChild(input)
+}
+
+function addProduct(){
+
+let products=JSON.parse(localStorage.getItem("products"))||[]
+
+let name=document.getElementById("name").value
+let price=document.getElementById("price").value
+let desc=document.getElementById("desc").value
+let category=document.getElementById("category").value
+
+if(category==="devices.html"){
+
+let mode=document.getElementById("deviceMode").value
+
+// NORMAL
+if(mode==="normal" || mode==="single"){
+
+let inputs=document.querySelectorAll(".imageInput")
+let images=[]
+let total=inputs.length
+let loaded=0
+
+inputs.forEach(input=>{
+let file=input.files[0]
+if(!file) return
+
+let reader=new FileReader()
+
+reader.onload=e=>{
+images.push(e.target.result)
+loaded++
+
+if(loaded===total){
+products.push({name,price,desc,category,images})
+localStorage.setItem("products",JSON.stringify(products))
+alert("Added")
+displayProducts()
+}
+}
+
+reader.readAsDataURL(file)
+})
+
+}
+
+// COLORS
+else if(mode==="colors"){
+
+let images={black:[],white:[]}
+
+let filesBlack=document.getElementById("imagesBlack").files
+let filesWhite=document.getElementById("imagesWhite").files
+
+let total=filesBlack.length+filesWhite.length
+let loaded=0
+
+function check(){
+if(loaded===total){
+products.push({name,price,desc,category,images})
+localStorage.setItem("products",JSON.stringify(products))
+alert("Added")
+displayProducts()
+}
+}
+
+for(let i=0;i<filesBlack.length;i++){
+let reader=new FileReader()
+reader.onload=e=>{
+images.black.push(e.target.result)
+loaded++
+check()
+}
+reader.readAsDataURL(filesBlack[i])
+}
+
+for(let i=0;i<filesWhite.length;i++){
+let reader=new FileReader()
+reader.onload=e=>{
+images.white.push(e.target.result)
+loaded++
+check()
+}
+reader.readAsDataURL(filesWhite[i])
+}
+
+}
+
+}else{
+
+let inputs=document.querySelectorAll(".imageInput")
+let images=[]
+let total=inputs.length
+let loaded=0
+
+inputs.forEach(input=>{
+let file=input.files[0]
+if(!file) return
+
+let reader=new FileReader()
+
+reader.onload=e=>{
+images.push(e.target.result)
+loaded++
+
+if(loaded===total){
+products.push({name,price,desc,category,images})
+localStorage.setItem("products",JSON.stringify(products))
+alert("Added")
+displayProducts()
+}
+}
+
+reader.readAsDataURL(file)
+})
+
+}
+
+}
+
+function displayProducts(){
+
+let box=document.getElementById("list")
+box.innerHTML=""
+
+let products=JSON.parse(localStorage.getItem("products"))||[]
+
+products.forEach((p,index)=>{
+
+let img = ""
+
+if(Array.isArray(p.images)){
+img = p.images[0]
+}else if(p.images.black){
+img = p.images.black[0]
+}
+
+box.innerHTML+=`
+
+<div class="admin-card">
+
+<input value="${p.name}" id="name-${index}">
+<input value="${p.price}" id="price-${index}">
+
+<input type="file" id="img-${index}">
+<img src="${img}" width="80">
+
+<button onclick="updateProduct(${index})">Update</button>
+<button onclick="deleteProduct(${index})">Delete</button>
+
+</div>
+
+`
+
+})
+
+}
+
+function updateProduct(index){
+
+let products=JSON.parse(localStorage.getItem("products"))||[]
+
+products[index].name=document.getElementById(`name-${index}`).value
+products[index].price=document.getElementById(`price-${index}`).value
+
+let fileInput=document.getElementById(`img-${index}`)
+
+if(fileInput.files[0]){
+
+let reader=new FileReader()
+
+reader.onload=e=>{
+
+if(products[index].images.black){
+products[index].images.black=[e.target.result]
+}else{
+products[index].images=[e.target.result]
+}
+
+localStorage.setItem("products",JSON.stringify(products))
+alert("Updated with image")
+displayProducts()
+
+}
+
+reader.readAsDataURL(fileInput.files[0])
+
+}else{
+localStorage.setItem("products",JSON.stringify(products))
+alert("Updated")
+displayProducts()
+}
+
+}
+
+function deleteProduct(index){
+let products=JSON.parse(localStorage.getItem("products"))||[]
+products.splice(index,1)
+localStorage.setItem("products",JSON.stringify(products))
+displayProducts()
+}
+
+</script>
+
+</body>
+</html>
+
